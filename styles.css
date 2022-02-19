@@ -1,0 +1,26 @@
+body {
+    background-color: #2e5354;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+p#introPara {
+    color: salmon;
+    border: groove;
+    border-color: maroon;
+    border-width: 5px;
+    border-radius: 30px;
+    border-style: groove;
+    padding: 10px;
+    margin: 30px;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    /* This is to resize the window*/
+    width: 50%;
+    margin: auto;
+}
