@@ -1,38 +1,67 @@
-<head>
-    <title>Nicholas's Page</title>
-    <link rel="icon" type="image/png" href="resources/images/myImage.png">
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<body>
-    <!--This is my introduction-->
-<div>
-    <h1>Hello, I'm Nicholas!</h1>
-    <h3>Y0 IS</h3>
-    <p>I am a Year 0 Information Systems student. Yes, I haven't matriculated yet but I'm still here xd</p>
-</div>
-<hr>
-    <!--Lists-->
-<div>
-    <p><b>Food I don't mind eating</b></p>
-    <ol>
-        <li>McDonalds</li>
-        <li>Japanese cuisine - Can't get enough</li>
-        <li>Edible food</li>
-    </ol>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <ul>
-        <li>Hello</li>
-        <li>Just for fun</li>
-        <li>:D</li>
-    </ul>
-</div>
+    <!-- Personal CSS -->
+    <link href="styles.css" rel="stylesheet">
 
-<!--image-->
-<div>
-    <img src="resources/images/myImage.png">
-    <br>
-    <a href="https://www.instagram.com/nicholas_txj/?hl=en"><img src="resources/images/instagramIcon.png" width="80px"></a>
-    <a href="https://www.linkedin.com/in/nicholas-tan-514627227/"><img src="resources/images/linkedinIcon.png" width="80px"></a>
-</div>
+    <!-- Head Title & Icon -->
+    <title>Nicholas - Welcome!</title>
+    <link rel="icon" type="image/png" href="resources/images/myIcon.png">
+  </head>
 
-</body>
+  <body>
+    <h1 id="mainTitle">Nicholas's Page</h1>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #2d5446;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="resources/images/myIcon.png" width="40px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contact
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="https://www.instagram.com/nicholas_txj/?hl=en"><img src="resources/images/instagramIcon.png" width="15px"> Instagram</a></li>
+                  <li><a class="dropdown-item" href="https://www.linkedin.com/in/nicholas-tan-514627227/"><img src="resources/images/linkedinIcon.png" width="15px"> LinkedIn</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://steamcommunity.com/id/exol0tl"><img src="resources/images/steamIcon.png" width="20px"> Steam</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Future Projects (?)</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+    <!-- Index Page -->
+
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
+</html>
